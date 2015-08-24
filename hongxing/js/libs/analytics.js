@@ -478,7 +478,7 @@
         } catch (l) {
         }
         b &&
-            (a = b[m](/[\d]+/g)) && 3 <= a[y] && (b = a[0] + "." + a[1] + " r" + a[2]);
+        (a = b[m](/[\d]+/g)) && 3 <= a[y] && (b = a[0] + "." + a[1] + " r" + a[2]);
         return b || void 0
     };
     var gc = function (a, b) {
@@ -638,7 +638,7 @@
                 d[id]("value", c);
                 b.appendChild(d)
             } else"post" ==
-                b.method[I]() && (b.action = qd(a, b[kd]))
+            b.method[I]() && (b.action = qd(a, b[kd]))
         }
     };
     Dc[z].S = function (a, b, c) {
